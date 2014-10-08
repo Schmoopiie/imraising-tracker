@@ -1,0 +1,48 @@
+{
+    "name": "imraising-tracker",
+    "version": "1.0.0",
+    "description": "Donation tracker for ImRaising v2.",
+    "keywords": [
+        "imraising",
+        "tracker",
+        "donations",
+        "money",
+        "stream"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Schmoopiie/imraising-tracker.git"
+    },
+    "bugs": {
+        "url": "http://github.com/Schmoopiie/imraising-tracker/issues"
+    },
+    "author": {
+        "name": "Schmoopiie",
+        "email": "Schmoopiie@gmail.com",
+        "url": "http://www.schmoopiie.com/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+        }
+    ],
+    "main": "./index",
+    "dependencies": {
+        "event-source-stream": "*",
+        "request": "*",
+        "chalk": "*",
+        "q": "*"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "maintainers": [
+        {
+            "name": "Schmoopiie",
+            "email": "Schmoopiie@gmail.com"
+        }
+    ],
+    "directories": {},
+    "homepage": "https://github.com/Schmoopiie/twitch-irc"
+}
