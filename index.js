@@ -32,8 +32,7 @@ var imraising = function imraising(options) {
             var data = JSON.parse(data);
 
             // ImRaising returns only the _id if a donation is deleted.
-            var amount = data.amount.display.total || 0.00;
-            if (amount === 0.00) { self.emit('donation.delete', data); }
+            if (!data.amount || !data.amount.display.total) { self.emit('donation.delete', data); }
             else { self.emit('donation.add', data); }
         });
     }
